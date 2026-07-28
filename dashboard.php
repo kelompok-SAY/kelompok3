@@ -33,7 +33,7 @@ $jumlah = mysqli_num_rows($total);
 <?php
 $no = 1;
 $data =mysqli_query($koneksi, "
-    SEKECT * FROM siswa
+    SELECT * FROM siswa
 ");
 while ($d = mysqli_fetch_array($data)) {
 ?>
