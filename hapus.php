@@ -5,3 +5,5 @@ mysqli_query($koneksi, "
    DELETE FROM siswa
    WHERE id_siswa='$id'
 ");
+header("Location: dashboard.php");
+?>

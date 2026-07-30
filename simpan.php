@@ -6,8 +6,7 @@ $nama = $_POST['nama'];
 $jurusan = $_POST['jurusan'];
 $alamat = $_POST['alamat'];
 
-mysqli_query($koneksi, "
-    INSERT INTO siswa
+mysqli_query($koneksi, "INSERT INTO siswa
     VALUES (
         '',
         '$nis',
